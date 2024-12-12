@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudandohtml</title>
+</head>
+
+<body>
+    <header>
+        <h1>CURSO DE HTML</h1>
+        <hr>
+        <h2 id="home">INDICE DO CURSO</h2>
+        <ul>
+            <li><a href="#HTML">O QUE É O HTML?</a></li>
+            <li><a href="#ESTRUTURA">A ESTRUTURA DO HTML</a></li>
+            <li><a href="#TAGS">O QUE SÃO TAGS?</a></li>
+            <li><a href="#USO">USO DAS TAGS</a></li>
+            <li><a href="#H">TÍTULOS</a></li>
+            <li><a href="#P">PARÁGRAFOS</a></li>
+            <li><a href="#BR">MUDANÇA DE LINHA</a></li>
+            <li><a href="#STRONG">NEGRITO</a></li>
+            <li><a href="#EM">ITÁLICO</a></li>
+            <li><a href="#U">SUBLINHADO</a></li>
+            <li><a href="#MARK">MARCADOR</a></li>
+            <li><a href="#SMALL">PEQUENO</a></li>
+            <li><a href="#LI">LISTAS</a></li>
+            <OL>
+                <li><a href="#OL">LISTAS ORDENADAS</a></li>
+                <li><a href="#UL">LISTAS NÃO ORDENADAS</a></li>
+            </OL>
+            <li><a href="#HR">LINHA ESTÉTICA</a></li>
+            <li><a href="#SUB">INFERIOR</a></li>
+            <li><a href="#SUP">SUPERIOR</a></li>
+            <li><a href="#LINKS">LINKS</a></li>
+            <li><a href="#ANCORAS">ÁNCORAS</a></li>
+            <li><a href="#IDS">IDS</a></li>
+
+        </ul>
+    </header>
+    <main>
+        <section>
+            <br>
+            <h3 id="HTML">O QUE É O HTML?
+        </section>
+        </h3>
+        <small><a href="#home">(voltar ao inicio)</a></small>
+        <p> O <strong>HTML</strong> é uma linguagem que oference a estrutura básica de formatação de textos,
+            imagenss, links e outros elementos, através de uma codificação chamada de "tags" que, servirão para
+            descrever e estruturar informações dentro de um documento com do tipo de formato ".html" para criar,
+            organizar e dar forma a nossa pagina web. Ele fornece a base para organizar o conteúdo de uma página que
+            estamos construindo como se fosse o alicerce, o pilar, a base aonde a estrutura final do nosso site "No
+            caso o conteudo" vai
+            acentar. <br>
+            <br>
+            Diferentemente de linguagens de programação, uma linguagem de marcação não executa operações ou
+            cálculos, mas serve para representar dados ou conteúdo de forma organizada.
+        </P>
+        <P>O termo <strong>HTML</strong> vem do ingles <i>(HyperText Markup Language),</i> Traduzindo - <mark>
+                "Linguagem de Marcação de
+                Hipertexto."
+            </mark>
+            <li><strong>Hipertexto:</strong> porque tem à capacidade de criar links entre diferentes páginas ou
+                partes do conteúdo. </li>
+            <li><strong>Linguagem de Marcação</strong> porque é um sistema que usa "tags" para estruturar e
+                organizar informações no documento.</li>
+            <br>
+            </section>
+        <section>
+            <h3 id="ESTRUTURA">A ESTRUTURA DO HTML</h3>
+            <small><a href="#home">(voltar)</a></small>
+            <P>O HTML segue uma estrutura de organização bem definida para não nos perder-mos na sua implementação
+                correcta</P>
+            encontra-se definida como:
+
+            <ul>
+                <li>&lt;html&gt;&lt;/html&gt; </li>
+                <li>&lt;head&gt; &lt;/head&gt; </li>
+                <li>&lt;body&gt; &lt;/body&gt; </li>
+                <li>&lt;header&gt; &lt;/header&gt; </li>
+                <li>&lt;main&gt; &lt;/main&gt; </li>
+                <li>&lt;footer&gt; &lt;/footer&gt; </li>
+            </ul>
+            <p>mas encadeadas umas dentro das outras e ficariam assim:</p>
+         
+                <p>
+                    &lt;html&gt;
+                    <br>&lt;head&gt;
+                    <br>&lt;/head&gt;
+                    <br>&lt;body&gt;
+                    <br>&lt;header&gt; <br>&lt;/header&gt;
+                    <br>&lt;main&gt;
+                    <br>&lt;/main&gt;
+                    <br>&lt;footer&gt;
+                    <br>&lt;/footer&gt;
+                    <br>&lt;/body&gt;
+                    <br>&lt;/html&gt;
+                </p>
+                <p>aonde dentro delas teremos o nosso conteudo</p>
+            
+        </section>
+        <SEction>
+            <h3 id="TAGS">O QUE SÃO TAGS?</h3>
+            <small><a href="#home">(voltar)</a></small>
+            <P>As <strong>"TAGS"</strong> são a maneira como as estruturas no html são criadas.</P>
+            <p>Elas tem um padrão, e servem para formatar o nosso documento, dando sentido a estrutura da nossa página.
+            </p>
+            <p>As tags seguem um padrão de formatação abrindo e fechando com os sinais de <strong>"&lt;"</strong> e
+                <strong> "&gt;"</strong> e encerrando com uma barra entre eles "/" com a informação do que ela faz.
+            </p>
+            <p>como por exemplo uma tag para escrever um paragrafo: &lt;p&gt; olá mundo!&lt;/P&gt; aonde o resultado
+                desta tag seriao texto dentro de aspas "olá mundo!".</p>
+        </section>
+        <SEction>
+            <H3 id="USO">O USO DAS TAGS</H3>
+            <small><a href="#home">(voltar)</a></small>
+            <p>Existem inúmeras tags e cada uma com a sua função, para diferentes necessidades!.
+            </p>
+            <p>Algumas tags servem para criar um link, outras para colocar uma imagem, outras simplesmente para criar um
+                novo paragrafo como este aqui.</p>
+            <p>a implementação de uma nova tag vai depender da necessidade da criação de um novo campo, formatação ou
+                até mesmo edição.</p>
+            <p>Como podemos ver mais abaixo alguns exemplos de utilização de algumas tags.</p>
+        </SEction>
+        <SEction>
+            <H3 id="H">TÍTULOS</H3>
+            <small><a href="#home">(voltar)</a></small>
+            <P>A tag para titulos é escrita com a letra "h" dentro das colchetes angulares.
+                E tal como nos processadores de texto elas são caracterizadas pela Hierarquia do título </P>
+            <p>como por exemplo:
+            <H1>TíTULO1</H1>
+            <h2>TíTULO2</h2>
+            <h3>TíTULO3</h3>
+            <h4>TíTULO4</h4>
+            <h5>TíTULO5</h5>
+            <h6>TíTULO6</h6>
+            </p>
+            <p>não se assuste você não está fazendo um exame a vista para saber se precisa de utilizar óculos.</p>
+            <P>esta é simplesmente a implementação da tag para títulos que na prática a a implementação seria
+                "&lt;h1&gt; TÍTULO1&lt;/h1&gt;"</P>
+            <p>para os títulos de hierarqui de nível 1, e assim sucessivamente para os demais até a mais baixa de nível
+                6</p>
+        </SEction>
+        <SEction>
+            <H3 id="P">PARÁGRAFOS</H3>
+            <small><a href="#home">(voltar)</a></small>
+            <p>como no exemplo anterior os paragrafos são escritos com as colchetes e a letra "p"
+            <p>como no exemplo acima uma tag para escrever um paragrafo: &lt;p&gt; olá mundo!&lt;/P&gt; aonde o
+                resultado
+                desta tag seriao texto dentro de aspas "olá mundo!".</p>
+            </p>
+
+        </SEction>
+        <SEction>
+            <H3 id="BR">MUDANÇA DE LINHA</H3>
+            <small><a href="#home">(voltar)</a></small>
+            <P>as mudanças de linhas dão-se quando:
+            <ol>
+                <li>estamos escrevendo um novo paragrafo</li>
+                <li>estamos mudando de linha com a tag "br"</li>
+            </ol>
+            esta tag em particular é uma das poucas que foge do padrão pois não necessita da tag de fechamento, sendo
+            escrita no código como "&lt;br&gt;" e tem a função de adicionar uma nova linha ao texto.
+            </P>
+        </SEction>
+        <SEction>
+            <H3 id="STRONG">NEGRITO</H3>
+            <small><a href="#home">(voltar)</a></small>
+            <P>o Negrito é escrito com a tag &lt;strong&gt; do inglês <strong>"forte"</strong>" e serve literalmente
+                para fazer o que o texto diz "uma marcação com ênfase mais forte" esta tag tem um fechamento como as
+                demais &lt;/strong&gt; </P>
+            <p>um explo dela em prática seria:"&lt;strong&gt; este texto está em negrito &lt;/strong&gt;"</p>
+
+            <p>o resultado "<strong>este texto está em negrito</strong>"</p>
+        </SEction>
+        <SEction>
+            <H3 id="EM">ITÁLICO</H3>
+            <small><a href="#home">(voltar)</a></small>
+            <P>Da mesma forma que o negrito, o itálico segue uma semantica na sua implementação</P>
+            <p>ele é escrito com as tags &lt;em&gt; &lt;/em&gt; e aqui voce já deve ter percebido que o "em" vem do
+                "emphasis" do inglês, aondo o sentido é aplicado.</p>
+            um exemplo desta tag seria:<em> escrita em etialico</em>.
+            <p>mas na verdade o código por detrás dela é &lt;em&gt; escrita em itálico &lt;/em&gt; </p>
+        </SEction>
+        <SEction>
+            <H3 id="U">SUBLINHADO</H3>
+            <small><a href="#home">(voltar)</a></small>
+            <P>Nesta altura voce já deve ter percebido também que a tag "sublinhado" deverá vir do inglês como todas as
+                outras e também deverá seguir uma semantica para fazer sentido.</P>
+            <p>Os meus parabéns!!! você está certo.</p>
+            <p>o código é escrito como os outros com abertura e fechamento, e a tag semantica seria o "u" do inglês
+                "underline"</p>
+            <p>Um exemplo de texto sublinhado: <u>texto sublinhado</u></p>
+            escrito com as tags: &lt;u&gt; texto sublinhado&lt;/u&gt;
+        </SEction>
+        <SEction>
+            <H3 id="MARK">MARCADOR</H3>
+            <small><a href="#home">(voltar)</a></small>
+            <P>Dando sequência ao próximo atributo, que neste momento você já deve ter acossiado ao inicio da nossa
+                página aonde temos um texto marcado em amarelo mais acima.</P>
+            <p>O "marcador" serve para dar ênfase no texto, para algumas palavras destacadas, da mesma forma que da-mos
+                destasque, quando "grifamos" no caderno ou em algum livro que estamos a ler </p>
+            <p>Para utilizar-mos a tag marcador basta colocar-mos as tags delimitadoras <strong> &lt;mark&gt; texto
+                    marcado&lt;/mark&gt; </p></strong>
+            resultado: <mark>texto marcado</mark>
+        </SEction>
+        <SEction>
+            <H3 id="SMALL">PEQUENO</H3>
+            <small><a href="#home">(voltar)</a></small>
+            <P>A tag "small" serve para escrevermos um texto mais pequeno, o que dá muito jeito na criação de páginas,
+                porque com alguma criatividade podemos ter uma aplicação muito ampla deste, anotações, textos de rodapé,
+                ou até mais criativos como textos com links para voltar, como as tags que estãos escritas abaixo de cada
+                título que ao clicar volta para o nosso índice </P>
+            <p>a sua aplicação é feita com as tags &lt;samll&gt; um exemplo de texto pequeno&lt;/small&gt; </p>
+            resultado: <strong><small>um exemplo de texto pequeno</small></strong>
+        </SEction>
+        <SEction>
+            <H3 id="LI">LISTAS</H3>
+            <small><a href="#home">(voltar)</a></small>
+            <P>As listas são umas das tags que normalmente mais vamos usar, porque:</P>
+            <ol>
+                <li>são muito úteis</li>
+                <li>acrescentam organização e estética a nossa pagina</li>
+            </ol>
+            <p>a criação de listas é feita com a tag &lt;li&gt; e o conteudo que ficará dentro da lista&lt;/li&gt; </p>
+            entretanto, devemos ter em conta pontos cruciais como:
+            <ul>
+                <li>A ordem</li>
+                <li>A semantica</li>
+            </ul>
+
+            <p>como pode reparar mais acima existem dois tipos de listas ordenadas e não ordenadas </p>
+
+        </SEction>
+        <SEction>
+            <H3 id="OL">LISTAS ORDENADAS</H3>
+            <small><a href="#home">(voltar)</a></small>
+            <P>As listas ordenadas, são criadas de forma sequêncial tendo em conta a "ordem"</P>
+            <p>
+                a tag para a sua criação é a tag &lt;ol&gt; &lt;/ol&gt; do inglês "ordenadat list" e a asua
+                implementação é feita com a tag &lt;li&gt;&lt;/li&gt; dentro dela
+                exemplo: &lt;ol&gt; &lt;li&gt; &lt;/li&gt; &lt;/ol&gt;
+            </p>
+            <p><strong>exemplo:</strong></p>
+
+            &lt;ol&gt; <br>&lt;li&gt; o conteudo da lista ficará aqui&lt;/li&gt; <br> &lt;li&gt; o outro ficará
+            aqui&lt;/li&gt;
+            <br> &lt;li&gt; e o outro ficará aqui&lt;/li&gt;<br> &lt;/ol&gt;</p>
+            <ol>
+                <li>o conteudo da lista ficará aqui</li>
+                <li>o outro ficará aqui</li>
+                <li>e o outro ficará aqui</li>
+            </ol>
+        </SEction>
+        <SEction>
+            <H3 id="UL">LISTAS NÃO ORDENADAS</H3>
+            <small><a href="#home">(voltar)</a></small>
+            <P>Da mesma maneira as listas "não ordenadas vêm do inglês e neste caso do inglês "undernadate list" ou
+                <mark>"lista não ordenada"</mark>
+            </P>
+            <p>a sua aplicação é feita com as colchetes em "ul" </p>
+            <p>a sua implementação é feita com a tag "li" dentro dela da mesma forma que as das listas ordenadas</p>
+            <p><strong>exemplo:</strong></p>
+            &lt;ul&gt; <br>&lt;li&gt; uma lista não ordenada&lt;/li&gt; <br> &lt;li&gt; o com muitos campos&lt;/li&gt;
+            <br> &lt;li&gt; que servem para exemplo&lt;/li&gt;<br> &lt;/ul&gt;</p>
+            <ul>
+                <li>uma lista não ordenada</li>
+                <li>com muitos campos</li>
+                <li>que servem para exemplo</li>
+            </ul>
+
+            <SEction>
+                <H3 id="HR">LINHA ESTÉTICA</H3>
+                <small><a href="#home">(voltar)</a></small>
+
+                <P>Uma linha estética é um separador que dá um loyalt mais bonito a página, não é nada mais do que uma
+                    linha na página</P>
+                <p>ela é escrita com a tag "hr" e tal como a tag "br" não tem fechamento.</p>
+                <p><strong>Exemplo:</strong> &lt;hr&gt;</p>
+                <hr>
+            </SEction>
+            <SEction>
+                <H3 id="SUB">INFERIOR</H3>
+                <small><a href="#home">(voltar)</a></small>
+                <P>A tag inferior é escrita com as letras "sub" dentro de colchetes.</P>
+                <p>ela é muito útil para escrever fórmulas por exemplo ou qualquer outra palavra que precise ficar
+                    abaixo da sequencial</p>
+                <P><STROng>Exemplo:</STROng></P>
+                <p>&lt;p&gt;H&ltsub&gt2&lt;/sub&gt;O&lt;/p&gt;</p>
+                <p><strong>H<sub>2</sub>O</strong></p>
+                <p>você consegue reparar no 2 abaixo da linha dos demais?</p>
+                <p>é muito útil essa tag para nos permitir ser-mos mais flexíveis com a escrita</p>
+            </SEction>
+            <SEction>
+                <H3 id="SUP">SUPERIOR</H3>
+                <small><a href="#home">(voltar)</a></small>
+                <P>para escrevermos o superior só precisamos seguir a mesma logica</P>
+                <p>se o "sub" é para baixo o "sup" é para cima e tem muita utilidade para escrevermos formulas
+                    matemáticas por exemplo</p>
+                <p>&lt;p&gt;10&ltsup&gt2&lt;/sup&gt;=100&lt;/p&gt;</p>
+                <p>10<sup>2</sup>=100</p>
+                <p>a leitura é muito clara,e isso ajuda na interpretação do texto.</p>
+            </SEction>
+        </SEction>
+        <SEction>
+            <H3 id="LINKS">LINKS</H3>
+            <small><a href="#home">(voltar)</a></small>
+            <P>Os links são um dos pontos chaves e mais fortes "se não o mais" da linguagem HTML </P>
+            <p>pois nos permitem "navegar" entre pontos do documento ou pagina, ou entre páginas</p>
+            <p>a tag de link é escrita com a letra "a" dentro das colchetes e o seu caminho é colocado dentro da
+                referência entre as aspas que ficaria como: <strong>href=""</strong></p>
+            <p>um exemplo seria &lt;a href=""&gt; &lt;/a&gt;</p>
+            <p><mark>&lt;a </mark> para a abertura do link <br><mark>href=""</mark> para o caminho que ele vai percorrer
+            </p>
+            <p> <mark>&lt;/a&gt;</mark> para fechar o link</p>
+            <p><strong>exemplo:</strong>&lt;a href="#home"&gt; este link vai para o íncide &lt;/a&gt;</p>
+            <a href="#home">este link vai para o índice</a>
+        </SEction>
+        <SEction>
+            <H3 id="ANCORAS">ÁNCORAS</H3>
+            <small><a href="#home">(voltar)</a></small>
+            <P>Aqui eu gostaria muito de escrever em conjunto "Ancoras e Ids" só para poder fazer mais sentido, mas,
+                como eu gostaria que ficasse claro para todos os que lêrem esta mensagem vamos fazer por passos.</P>
+            <p>por muito tempo eu tive uma dificuldade enorme em perceber as ancoras e os ids porque eu estudava em
+                conjunto o <strong>HTML</strong> e o <strong>CSS</strong> e isso me deixava confuso pois existe um
+                bendito de um atributo chamado <strong>"class"</strong> que acabava por baralhar o meu entendimento,
+                mas... <strong>NÃO MAIS</strong></p>
+            <P>Por hora pense nas ancoras como <mark><strong><em>"portas de entrada"</em></strong></mark> que ao clicar
+                nos levam para uma porta de saída</P>
+            escrevemos as ancoras com o sinal "#"
+            <p>E por falar em portas de entradas sabe o que isso me lembra? pois é <strong>Links</strong> as ancoras
+                trabalham em parceria com os links e elas abrem essas "portas" pelo qual o Link faz o caminho</p>
+            <p>Sabe o exemplo que voce viu nos links? eles já tinham uma áncora veja abaixo:</p>
+            <p><strong>exemplo:</strong>&lt;a href="<mark>#</mark>home"&gt; este link vai para o íncide &lt;/a&gt; bem
+                aqui viu?</p>
+        </SEction>
+        <SEction>
+            <H3 id="IDS">ID</H3>
+            <small><a href="#home">(voltar)</a></small>
+            <P>Dando sequência, vamos falar sobre os ids. </P>
+            <p>Lembra que as ancoras são as portas de entradas? pois é elas precisam de um porta de saída, e os ids nos
+                dão esta solução.</p>
+            <p>pode-mos escrever os ids com as letras "id", e como os ids são atributos elas seguem a mesma logica
+                "ficando dentro de uma tag"</p>
+            <p>Se colocarmos uma porta de entrada "uma ancora" ela vai precisar de uma porta de saída "um id" </p>
+            <p>que dentro de uma tag ele ficaria assim:</p>
+            <p>&lt;h1 <strong> id="home"</strong>&gt; índice &lt;/h1&gt;</p>
+            <p>a essa altura você já sabe que o h1 é uma tag de titulo e que o id dentro dela é um atributo </p>
+            <p>aonde voce acha que essa porta de saída tem início?</p>
+            <p>a) no índice</p>
+            <p>b) no exemplo da ancora</p>
+            <p><small>parabéns para quem respondeu a opção da letra "b"</small></p>
+            <p>os ids servem para mais acções como "definir o nome de um objecto em específico, que no caso das ancoras
+                nos levam até eles, mas para outros atributos podemos ter outras opções, que veremos em uma outra
+                oportunidade</p>
+        </SEction>
+        <hr>
+    </main>
+    <footer>
+        <p><small>ficarica muito feliz de ter o seu feedback acerca deste pequeno trabalho, me mande uma mensagem pelo
+                github</small></p>
+    </footer>
+</body>
+
+</html>
